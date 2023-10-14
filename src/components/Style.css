@@ -1,0 +1,70 @@
+.title{
+    color:#bff402;
+}
+
+.title2{
+    color: #05c2fc;
+}
+
+.Container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Container_middle
+{
+    align-items: center;
+}
+ 
+.output
+{
+    border-radius: 20px;
+    margin: auto;
+    width: 300px;
+}
+
+.button
+
+{
+    margin-top: 20px;
+}
+
+.button_al
+{
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.Container_middle_para{
+    color: aqua;
+}
+
+.age_heading
+{
+    margin-bottom: 2px;
+    color: rgb(235, 8, 152);
+}
+
+/* ================================================================ */
+
+body {
+	background: linear-gradient(-45deg, pink, darkred, darkblue, violet);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
